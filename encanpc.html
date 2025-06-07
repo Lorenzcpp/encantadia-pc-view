@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> encantadia chronicles sang'gre teaser</title>
+    <style>
+      body{
+        
+        background-image: url('964dc605910a83a4e4bb8c5e0dbb4610.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+      }
+      
+      }
+      button{
+        margin:110px;
+        height:80px;
+        background-color: white;
+      }
+      h6{
+        background-color: white;
+        text-align: center;
+        font-size: 70px;
+      }
+      h4{
+        font-size: 50px;
+      }
+      p{
+        font-size: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h6><em><b> Encantadia Chronicles Sang'gre</b></em></h6>
+        <h4><em> <i> <mark> click the image if you want to watch the teaser.</mark></i></em></h4>
+        <a href="https://youtu.be/LJvIO9yewvI?si=JOIKxZOwoYGRchI2">
+     <img src="FB_IMG_1749287650985.jpg" alt="multo"
+    target="_self" width ="100%" height="1500">
+    </a>
+    <h4><em><mark> THIS WEBSITE PROMOTES ENCANTADIA CHORONICLES SANG'GRE FAN CONTENT, ENCOURAGING VIEWERS TO WATCH IT ON YOUTUBE.</mark></em></h4>
+    <audio id="myAudio" preload="auto" loop>
+  <source src="Encantadia (2016) Official Soundtrack.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+    <footer>
+      
+     <p><a href="https://www.facebook.com/share/16akcoigB6/"><mark>&copy; Developer:Lorenz_cpp</m></a></p>
+      
+    </footer>
+    <script>
+        const audio = document.getElementById("myAudio");
+
+  //Attempt to play after a slight delay to avoid autoplay restrictions
+  setTimeout(function(){
+    audio.play().catch(error => {
+        console.error("Audio playback failed:", error);
+        
+        
+    });
+  }, 1000); 
+
+
+  
+  document.addEventListener('click', function(){
+    audio.play();
+  });
+
+  
+  const playButton = document.getElementById("playButton");
+  const pauseButton = document.getElementById("pauseButton");
+
+  playButton.addEventListener('click', () => audio.play());
+  pauseButton.addEventListener('click', () => audio.pause());
+    </script>
+  </body>
+</html>
